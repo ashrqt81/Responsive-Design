@@ -1,0 +1,621 @@
+*{
+    padding:0;
+    margin:0;
+    outline:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    }
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+  
+}
+/*header*/
+#header{
+    
+    background:url('../images/Banner-bg.jpg') no-repeat center;
+
+}
+/*navbar*/
+#header .background{
+    background-color: RGBa(6,12,18,.8);
+}
+#header .background nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+}
+#header .wrapper h1{
+    font-weight: bolder;
+    font-size: .7rem;
+    color: white;
+    padding-top: 5px;
+}
+#header .wrapper h1 span{
+    color: #FE9000;
+    
+}
+#header .wrapper ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+#header .wrapper ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: .7rem;
+    padding:5px;
+}
+#header .wrapper ul li a:hover{
+    background-color: #324D6A;
+    border-bottom: solid #FF9000 2px;
+    
+}
+/*image*/
+#header #head .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+#header #head .wrapper article{
+    width:100%;
+    padding-top: 40px;
+}
+#header #head .wrapper article>h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+#header #head .wrapper article h1+h1{
+    color: #FF9000;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+#header #head .wrapper article p{
+    color: white;
+    font-size: .7rem;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: justify;
+}
+#header #head .wrapper article a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border:white thin solid;
+    font-size: .6rem;
+    padding:5px 10px;
+   
+}
+#header #head .wrapper  footer{
+    background: url('../images/img1.jpg') no-repeat ;
+    width: 80%;
+    height: 15rem;
+    margin-top: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header #head .wrapper  footer:hover{
+    transform: translate(0px,20px);
+    background: url('../images/img1.jpg') no-repeat,
+                url('../images/shadow.png') no-repeat 100% 100%;
+    width: 100%;
+}
+#header #head .wrapper  footer #article{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    background-color:RGBa(23,33,42,.7);
+    padding: 15px 25px;
+    
+    }
+#header #head .wrapper footer #article #left{
+    width:50%;
+    display: flex;
+    color: white;
+    padding-top:15px;
+}
+#header #head .wrapper footer #article #left div {
+    display: flex;
+    justify-content: space-between;
+    }
+#header #head .wrapper footer #article #left div i{
+    border:solid white 2px;
+    border-radius: 30px;
+    padding: 5px;
+    padding-right: 10px;
+    font-size: small;
+    }
+#header #head .wrapper footer #article #left div i,h6{
+    padding-right: 10px;
+}
+
+#header #head .wrapper footer #article #right{
+    width:50%;
+    text-align: right;
+    font-size: .7rem;
+}
+#header #head .wrapper footer #article #right h4{
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+}
+#header #head .wrapper footer #article #right h5{
+    text-transform: capitalize;
+    color: #C36213;
+}
+#background{
+    width: 100%;
+    height:40px;
+    background-color: RGB(237,239,239);
+}
+/*about us*/
+#about-us .wrapper{
+    width: 100%;
+    
+}
+#about-us .wrapper h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2rem;
+}
+#about-us .wrapper p{
+    color: #B6ACAD;
+    margin-top: 20px;
+    text-align: center;
+
+}
+#about-us .wrapper hr{
+    width: 40%;
+    background-color: #FF980F;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#about-us .wrapper ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#about-us .wrapper ul li a{
+    color:#B7B7C2;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: solid #B7B7C2 thin;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+#about-us .wrapper ul li a:hover{
+    background-color: #FF9407;
+    color: white;
+}
+#about-us .wrapper #flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+#about-us .wrapper #flex div{
+    width: 100%;
+    padding-top: 30px;
+    position: relative;
+    height: 270px;
+}
+#about-us .wrapper #flex div img{
+    width:85%;
+    border:solid 4px white;
+    position: absolute;
+    top:0px;
+    left:50px;
+}
+#about-us .wrapper #flex div #img1{
+    width:85%;
+    border:solid 4px white;
+    position: absolute;
+    top:50px;
+    left: 0px;
+}
+#about-us .wrapper #flex article{
+    width: 100%;
+    margin-bottom: 40px;
+}
+#about-us .wrapper #flex article h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+#about-us .wrapper #flex article h6{
+    text-transform: uppercase;
+    color: #FFD8D1;
+    text-align: center;
+}
+/*our-services*/
+#our-services{
+    background:url('../images/Services-bg.jpg') no-repeat center;
+}
+#our-services .wrapper h1 ,#pricing .wrapper h1,#contact-us .wrapper h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+#our-services .wrapper p , #pricing .wrapper p,#contact-us .wrapper p{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+#our-services .wrapper hr, #pricing .wrapper hr,#contact-us .wrapper hr{
+    width: 40%;
+    background-color: #FF980F;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#our-services .wrapper #cards{
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+#our-services .wrapper #cards{
+    height: 35rem;
+    width: 100%;
+}
+#our-services .wrapper #cards div{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+#our-services .wrapper #cards .a1{
+    background:url('../images/Development-cn.png') no-repeat center,
+               url('../images/Development-bg.jpg') no-repeat center;
+
+}
+#our-services .wrapper #cards .a1:hover{
+    background:url('../images/Develop-hover-icn.png') no-repeat center,
+                url('../images/Development-bg.jpg') no-repeat center;
+}
+#our-services .wrapper #cards .a2{
+    background:url('../images/desgin-icn.png') no-repeat center,
+               url('../images/desgin-bg.jpg') no-repeat center;
+}
+#our-services .wrapper #cards .a2:hover{
+    background:url('../images/desgin-hover-icn.png') no-repeat center,
+                url('../images/desgin-bg.jpg') no-repeat center;
+}
+#our-services .wrapper #cards .a3{
+    background:url('../images/concept-icn.png') no-repeat center,
+               url('../images/concept-bg.jpg') no-repeat center;
+}
+#our-services .wrapper #cards .a3:hover{
+    background:url('../images/concept-hover-icn.png') no-repeat center,
+                url('../images/concept-bg.jpg') no-repeat center;
+}
+#our-services .wrapper #cards .a4{
+    background:url('../images/systam-icn.png') no-repeat center,
+               url('../images/systam-bg.jpg') no-repeat center;
+}
+#our-services .wrapper #cards .a4:hover{
+    background:url('../images/systam-hover-icn.png') no-repeat center,
+                url('../images/systam-bg.jpg') no-repeat center;
+}
+/*pricing*/
+#pricing {
+background-color: #ECECEB;
+}
+#pricing .wrapper h1{
+    color: #000;
+}
+#pricing .wrapper p{
+    color:#AAADBB;
+}
+#pricing .wrapper #lists{
+    padding-bottom: 50px;
+    width:100%;
+}
+#pricing .wrapper #lists ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+    width:100%;
+    justify-content: center;
+    transform-origin:right bottom ;
+    transition-duration: 3s;
+}
+#pricing .wrapper #lists ul:hover{
+    transform: translate(20px,20px);
+}
+#pricing .wrapper #lists ul li{
+    background-color: white;
+    font-size: .6rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    padding-top: 10px;
+}
+#pricing .wrapper #lists ul img{
+    height: 3rem;
+    max-width: 100%;
+}
+#pricing .wrapper #lists ul .orange{
+background-color: #FF9407;
+color: #2D2D2D;
+}
+#pricing .wrapper #lists ul .black{
+    background-color: #2D2D2D;
+    color: #FF9407;
+}
+#pricing .wrapper #lists ul .white{
+        color: #A3AABF;
+}
+#pricing .wrapper #lists ul li a{
+    text-decoration: none;
+    color: #FF9407;
+}
+/*contact us*/
+#contact-us{
+    background: url('../images/Contact-bg.jpg') no-repeat center;
+}
+#contact-us .wrapper p{
+    color: #9DC5CA;
+}
+#contact-us .wrapper {
+    padding-bottom: 50px;
+}
+/*get in touch*/
+#get-in-touch{
+    background-color: #000000;
+}
+#get-in-touch .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#get-in-touch .wrapper form{
+    width: 100%;
+    padding-top: 50px;
+}
+#get-in-touch .wrapper form input ,#get-in-touch .wrapper form textarea{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    margin-bottom: 10px;
+}
+    #get-in-touch .wrapper form input:last-child {
+    background-color: #E28509;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+}
+#get-in-touch .wrapper .parent{
+    width: 100%;
+}
+#get-in-touch .wrapper .parent h1{
+    color:#E28509 ;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#get-in-touch .wrapper .parent div{
+    display: flex;
+    font-size: .7rem;
+    padding-top: 15px;
+}
+#get-in-touch .wrapper .parent div img{
+    max-width: 10%;
+    height: 1rem;
+    margin-right: 20px;
+    
+}
+#get-in-touch .wrapper .parent div p{
+    color: white;
+    width: 85%;
+}
+#get-in-touch .wrapper .parent .social{
+    width: 50%;
+    margin-bottom: 40px;
+}
+#get-in-touch .wrapper .parent .social img{
+    margin-top: 20px;
+    width: 30%;
+    height: auto;
+    
+}
+/*footer*/
+footer {
+    background-color:#294060 ;
+    color: #8E9496;
+    font-size: .6rem;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+   
+} /* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) {
+    #header #head .wrapper  footer{
+        width:85%;
+        height: 20rem;
+    }
+    #header #head .wrapper  footer:hover{
+        transform: translate(10px,20px);
+        width: 80%;
+    }
+    #header #head .wrapper article{
+        padding-top: 40px;
+    }
+    #header #head .wrapper article p{
+         font-size: 1rem;
+    }
+    #header .wrapper ul li a{
+        font-size: 1.6vw;
+    }
+    #header .wrapper h1{
+            font-size: 1.9vw;
+    }
+    #about-us .wrapper #flex div{
+        height: 500px;
+    }
+    #our-services .wrapper p{
+        font-size: 1rem;
+    }
+    #our-services .wrapper #cards div{
+        width: 49%;
+        padding-top: 10px;
+    }
+    #our-services .wrapper #cards{
+        padding-bottom: 50px;
+    }
+    #pricing .wrapper hr {
+        margin-bottom: 60px;
+    }
+    #pricing .wrapper #lists ul li{
+        font-size: 1rem;
+
+        padding-top: 20px;
+    }
+    #pricing .wrapper #lists ul img{
+        height: 4rem;
+    }
+} /* Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) {
+    #header #head .wrapper{
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+    #header .wrapper ul li a{
+        font-size: 1.2vw;
+    }
+    #header #head .wrapper article{
+        width:30%;
+        padding-top: 150px;
+    }
+    #header #head .wrapper article>h1{
+        font-size: 1.2rem;
+    }
+    #header #head .wrapper article h1+h1{
+        font-size: 1.2rem;
+    }
+    #header #head .wrapper article p{
+        font-size: .9rem;
+   }
+    #header #head .wrapper  footer{
+        width:50%;
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    #header #head .wrapper  footer:hover{
+        transform: translate(0px,20px);
+        width: 75%;
+        height: 25rem;
+    }
+    #header #head .wrapper footer #article {
+        width: 100%;
+    }
+    #about-us .wrapper #flex{
+        margin-bottom: 60px;
+    }
+    #about-us .wrapper #flex div{
+        display: flex;
+        justify-content: space-between;
+        max-width: 50%;
+        height: auto;
+    }
+    #about-us .wrapper #flex article{
+        max-width: 47%;
+    }
+    #about-us .wrapper #flex article h3{
+        text-align: left;
+    }
+    #about-us .wrapper #flex article h6{
+        text-align: left;
+    }
+    #about-us .wrapper #flex article p{
+        text-align: left;
+    }
+    #our-services .wrapper #cards{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #our-services .wrapper #cards div{
+        width: 40%;
+    }
+    #get-in-touch .wrapper form{
+        width: 47%;
+    }
+    #get-in-touch .wrapper .parent{
+        width: 47%;
+    }
+    #get-in-touch .wrapper{
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+    #get-in-touch .wrapper .parent{
+        padding-top: 50px;
+        width: 50%;
+    }
+    #get-in-touch .wrapper .parent h1{
+        text-align: left;
+    }
+} /* Extra large devices (large desktops, 1200px and up) */ 
+@media (min-width: 1200px) {
+.wrapper{
+    max-width: 1160px;
+    }
+    #header #head .wrapper  footer:hover{
+        width: 60%;
+    }  
+    #header #head .wrapper article>h1{
+        font-size: 1.6rem;
+    }
+    #header #head .wrapper article h1+h1{
+        font-size: 1.6rem;
+    }
+    #header #head .wrapper article p{
+        font-size: 1rem;
+   }
+   #header #head .wrapper footer #article #right {
+    font-size: 1.1rem;
+    }
+    #about-us .wrapper #flex{
+        margin-bottom: 170px;
+    }
+    #our-services .wrapper {
+        padding-top: 100px;
+    }
+    #our-services .wrapper hr{
+        margin-bottom: 0;
+    }
+}
